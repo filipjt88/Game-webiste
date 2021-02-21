@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white: #fff;
+    --primary:#12125a;
+    --pink: #ff7f95;
+    --purple: #770377;
+    --secondary:#ddd;
+    --violet: #8d468d;
+    --padding: 50px;
+    --transition: .5s ease;
+}
+
+.py {
+    padding: 80px;
+}
+
+.button {
+    padding: 10px 25px;
+    background: var(--white);
+    color: var(--primary);
+    border: none;
+    box-shadow: 8px 10px var(--purple);
+}
+
+.button:hover {
+    background: var(--primary);
+    color: var(--white);
+    transition: var(--transition);
+}
+
+
+/***** HEADER & NAVIGATION *******/
+
+header {
+    background-image:linear-gradient(rgba(255,255,255, .3),rgba(255,255,255, .3)),url(img/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    border-bottom: 5px solid var(--purple);
+}
+
+header .nav-item .nav-link i:hover {
+    color: var(--purple);
+    transition: var(--transition);
+}
+
+.navbar {
+    background: var(--primary)!important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: var(--white);
+    margin-left: 10px;
+}
+
+header .navbar-nav .nav-item .nav-link:hover {
+    color: var(--purple);
+    transition: var(--transition);
+}
+
+header span a {
+    color: var(--purple)!important;
+}
+
+.nav .nav-item i {
+    color: var(--secondary);
+}
+
+.navbar span {
+    color: var(--violet)!important;
+    font-size: 1.3rem;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-shadow: 0 0 5px var(--white);
+}
+
+.nav p {
+    color: var(--secondary);
+}
+
+header article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+header h1 {
+    font-size: 6rem;
+    color: var(--white);
+}
+
+header p {
+    color: var(--secondary);
+}
+
+/***** END OF HEADER & NAVIGATION *******/
+
+
+/***** SIDEBAR *******/
+
+.sidebar {
+    background: var(--primary);
+}
+
+.sidebar span:nth-child(2) {
+    color: var(--purple);
+}
+
+.sidebar .nav-link {
+    color: var(--white);
+    font-style: italic;
+}
+
+
+.sidebar .nav-item i {
+    color: var(--purple);
+}
+
+
+/***** END OF SIDEBAR *******/
+
+
+/***** CATEGORIES *******/
+
+.categories  {
+    background: #430091;
+}
+
+.categories span:nth-child(2) {
+    color: var(--purple);
+}
+
+.card .card-body {
+    background: #b1b1b1;
+}
+
+.card .card-body h3 {
+       text-shadow: 0 0 5px var(--purple);
+}
+
+.categories i {
+    color: var(--purple)!important;
+}
+
+/***** END OF CATEGORIES *******/
+
+
+/***** SUBSCRIBE *******/
+
+
+.subscribe {
+      background: #b1b1b1;
+      padding: 100px!important;
+}
+
+.subscribe input {
+    border: none!important;
+    border-bottom: 5px solid var(--violet)!important;
+    padding: 20px;
+}
+
+/***** END OF SUBSCRIBE *******/
+
+
+
+/***** FOOTER *******/
+
+
+footer {
+    padding: 30px;
+    background: var(--primary)!important;
+}
+
+footer a {
+    font-size: .9rem;
+}
+
+footer span {
+    color: var(--violet)!important;
+    font-size: 1.3rem;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-shadow: 0 0 5px var(--white);
+}
+
+footer .nav-item .nav-link:hover {
+    color: var(--violet)!important;
+    margin-left: 10px;
+    transition: var(--transition);
+}
+
+footer .nav-item .nav-link i:hover {
+    color: var(--violet)!important;
+    margin-left: 10px;
+    transition: var(--transition);
+}
+
+
+
+/***** END OF FOOTER *******/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
